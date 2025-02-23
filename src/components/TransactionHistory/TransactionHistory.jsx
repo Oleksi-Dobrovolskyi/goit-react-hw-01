@@ -1,7 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import './TransactionHistory.module.css'
-
+import styles from '../TransactionHistory/TransactionHistory.module.css';
 
 export default function TransactionHistory({ items }) {
   return (

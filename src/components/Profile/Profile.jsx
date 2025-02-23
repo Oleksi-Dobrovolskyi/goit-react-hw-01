@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './Profile.module.css'
+import styles from './Profile.module.css'
 
 
 export default function Profile({ name, tag, location, image, stats }) {
